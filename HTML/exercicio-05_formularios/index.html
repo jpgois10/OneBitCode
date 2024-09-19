@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <form action="#" method="post">
+            <div>
+                <label for="nome">Nome:</label><br />
+                <input type="text" name="nome" id="nome" required />
+            </div>
+
+            <br />
+
+            <div>
+                <label for="email">Email:</label><br />
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <br />
+
+            <div>
+                <label for="whatsapp">WhatsApp:</label><br />
+                <input type="tel" name="whatsapp" id="whatsapp" />
+            </div>
+
+            <br />
+
+            <div>
+                <label>Área de atuação:</label><br />
+                <input
+                    type="radio"
+                    name="areaAtuacao"
+                    id="desenvolvimento"
+                    value="desenvolvimento"
+                />
+                <label for="desenvolvimento">Desenvolvimento</label>
+                <input
+                    type="radio"
+                    name="areaAtuacao"
+                    id="qualityAssurance"
+                    value="qualityAssurance"
+                />
+                <label for="qualityAssurance">Quality Assurance</label>
+                <input
+                    type="radio"
+                    name="areaAtuacao"
+                    id="analiseDados"
+                    value="analiseDados"
+                />
+                <label for="analiseDados">Análise de Dados</label>
+                <input
+                    type="radio"
+                    name="areaAtuacao"
+                    id="infraestrutura"
+                    value="infraestrutura"
+                />
+                <label for="infraestrutura">Infraestrutura</label>
+            </div>
+
+            <br />
+
+            <div>
+                <label for="observacoes">Observações:</label><br />
+                <textarea
+                    name="observacoes"
+                    id="observacoes"
+                    cols="30"
+                    rows="4"
+                ></textarea>
+            </div>
+
+            <br />
+
+            <div>
+                <input
+                    type="checkbox"
+                    name="marketingEmail"
+                    id="marketingEmail"
+                />
+                <label for="marketingEmail"
+                    >Desejo receber novidades e ofertas por email.</label
+                >
+            </div>
+
+            <br />
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </body>
+</html>
