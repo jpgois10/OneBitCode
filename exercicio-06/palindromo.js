@@ -9,10 +9,13 @@ for (let i = palavra.length - 1; i >= 0; i--) {
 }
 
 if (palavraInvertida === palavra)
-    alert(
-    "A palavra " + palavra + " é um Palíndromo\n");
+    alert("A palavra " + palavra + " é um Palíndromo\n");
 else
-alert(
-    "A palavra " + palavra + " não é um Palíndromo\n" +
-    palavraInvertida.toLowerCase() + " ≠ " + palavra.toLowerCase()
-);
+    alert(
+        "A palavra " +
+            palavra +
+            " não é um Palíndromo\n" +
+            palavraInvertida.toLowerCase() +
+            " ≠ " +
+            palavra.toLowerCase()
+    );
